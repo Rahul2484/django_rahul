@@ -1,0 +1,195 @@
+body {
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+margin:150px 80px 100px 100px;  
+z-index: 2;
+}
+
+a { text-decoration: none;color: black } 
+
+h1 { font-size: 1em; }
+
+h1, p {
+margin-bottom: 10px;
+}
+
+strong {
+font-weight: bold;
+}
+
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 500px;
+color: #CCC;
+}
+
+#bgd{
+margin: 50px auto;
+width: 500px;
+background-color: #333;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+#container{
+  margin: auto ;
+  width: 900px;
+  height: auto;
+  align:center;
+}
+
+
+#styling{
+background-color: #00002E;  
+}
+
+form fieldset input[type="submit"] {
+background-color: #008dde;  /*color=blue*/
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;       /*color=white*/
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 400px;
+-webkit-appearance:none;
+}
+
+form fieldset a {
+color: #CCC;
+font-size: 15px;
+}
+
+form fieldset a:hover { text-decoration: underline; }
+
+
+div#fixedheader {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  color:black;
+  background:black;
+  padding:20px;
+  z-index: 4;
+  box-shadow: 0px 5px 3px grey;
+}
+
+div#mychoice {
+  align:left;
+}
+
+#logo{
+margin-left: 22.5%;
+height: 100px;
+width: 700px;
+position:relative;
+}
+#linker{
+color: black;
+text-align: right;
+}
+
+.fake-legend {
+  margin: 15px;
+  height: 15px;
+  width:40%;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+  margin-left:10%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+}
+.fake-legend span {
+  background: #CCC;
+  position: relative;
+  top: 0;
+  padding: 0 20px;
+  line-height:30px;
+}
+
+#mq{
+  padding-top: 30px;
+  margin: 10px;
+  min-height:250px;
+  max-height: 250px;
+}
+
+#myCarousel{
+  width: 550px;
+  max-width: 100%;
+  margin: auto 25%;
+}
+
+
+#colorising{
+  background-color: black;
+}
+
+#colorising2{
+  background-color: black;
+  margin-bottom: 0px;
+}
+
+.widthing{
+  color: black;
+  width: 266px;
+  text-align: center;
+  /*background-color: #000000;
+  */
+  margin: 0px 5px;
+  background-color: black;
+}
+
+</style>  <!-- Style STARTS HERE-->
+
+#page {
+	width: 960px;
+	text-align: left;
+	margin: 10px auto 20px auto;
+	background-color: #0c0c0c;
+}
+
+#sidebar {
+	float: right;
+	border-left: solid auto;
+	border-right: solid auto;
+	border-bottom: solid auto;
+	width: 500px;
+	
+}
+
+#content {
+	float: left;
+	width: 600px;
+	padding: 10px;
+	line-height: 36px;
+}
+
+
+label,input{
+
+	float: left;
+	
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	width: 100%;
+}

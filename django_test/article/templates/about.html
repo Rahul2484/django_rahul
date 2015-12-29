@@ -1,0 +1,44 @@
+{% load static %}
+
+<html lang="en">
+<head>
+	<title>{% block title %}Help{% endblock %}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="{% static "assets/css/default.css" %}">
+	
+	<script src="{% static "assets/js/jquery-2.0.0.min.js" %}"></script>
+	<script src="{% static "assets/js/ajax.js" %}"></script>
+</head>
+
+<body>
+<div id="fixedheader">    <!--HEADER-->
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="{% static "assets/images/Drawing (1).png" %}"  />
+</div>
+	<nav class="navbar navbar-inverse" id="colorising2">
+  <div class="container-fluid" class="colorising">
+    <div class="navbar-header" class="colorising">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="colorising" id="myNavbar">
+      <ul class="nav navbar-nav" >
+        <li class="widthing"><a href="/articles/all">Home</a></li>
+        <li class="widthing"><a href="/articles/create">New</a></li>
+        <li class="widthing"><a href="/articles/help">Help</a></li>
+   
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><p align="center">
+  This Todo Task Application helps us to add task to be done along with tags . Tags can be seperated by comma or space.<br> Use tags for Searching a particular task. Once the task is done you can delete it from the home page.
+ 
+</p>
+

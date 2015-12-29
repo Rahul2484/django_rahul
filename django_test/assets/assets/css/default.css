@@ -1,0 +1,43 @@
+body {
+background-color: #CCC;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+margin:150px 80px 100px 100px;  
+z-index: 2;
+}
+
+#page {
+	width: 960px;
+	text-align: left;
+	margin: 10px auto 20px auto;
+	background-color: #0c0c0c;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	border: 1px solid #000;
+}
+
+#content {
+	float: left;
+	width: 600px;
+	border: 1px solid #f00;
+	padding: 10px;
+	line-height: 36px;
+}
+
+label, input {
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	width: 100%;
+}
